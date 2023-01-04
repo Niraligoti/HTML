@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- jquery main cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <style>
+        p {
+            height: auto;
+            width: 500px;
+            border: 2px solid black;
+            padding: 10px;
+        }
+
+        .para {
+            color: red;
+            font-weight: 700;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function () {
+            $(".btn1").click(function () {
+                // $("p").filter(".p2").addClass("para");
+                // $("p").first().addClass("para");
+                // $("p").last().addClass("para");
+                // $("p").eq(1).addClass("para");
+                $("p").not(".p2").addClass("para");
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <!-- filter(0),first(),last(),eq(),not() -->
+    <button class="btn1"> click here</button>
+    <p class="p1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur accusamus architecto quidem consectetur nisi
+        quod quia delectus dignissimos perspiciatis porro earum cumque vitae, minima, nulla voluptates ad incidunt a
+        minus.
+    </p>
+    <p class="p2">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. At eveniet quia quis ad accusantium autem, consectetur
+        saepe aspernatur iste, amet consequuntur ipsa dolorem molestiae! Minus unde ab quia architecto fugit!
+    </p>
+    <p class="p3">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellat accusantium ex corrupti. Animi
+        dolorum deleniti ea recusandae repellat iure, qui soluta quae cum ad labore provident voluptas sit ab.
+    </p>
+</body>
+
+</html>
