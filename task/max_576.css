@@ -1,0 +1,196 @@
+@media(max-width:576px) {
+    header {
+        align-items: center;
+        background-image: url(image/banner1.jpg);
+        height: 650px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding-right: 40px;
+    }
+
+    .logo {
+        padding-left: 70px;
+        margin-top: 25px;
+    }
+
+    nav {
+        display: flex;
+        flex-basis: auto;
+        flex-grow: 1;
+        justify-content: space-evenly;
+    }
+
+    .navbar {
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .a1 {
+        color: white;
+        font-size: 35px;
+        font-weight: 900;
+        /* font-size: 40px; */
+    }
+
+    .a2 {
+        font-weight: lighter;
+        font-size: 35px;
+        /* font-size: 40px; */
+    }
+
+    ul {
+        display: flex;
+        /* align-items: center; */
+        /* text-align: center; */
+        margin-left: 60px;
+        margin-right: 60px;
+
+    }
+
+    li {
+        list-style: none;
+        padding: 20px;
+        margin-left: 20px;
+        align-items: center;
+
+    }
+
+    .list1 {
+        position: relative;
+        left: 0;
+    }
+
+    .drop-list1 {
+        position: absolute;
+        display: none;
+        background-color: white;
+        height: 80px;
+        width: 150px;
+        border-radius: 10px;
+        text-align: center;
+        color: #f9506f;
+        padding: 15px;
+
+    }
+
+    .drop-list1 a {
+        color: #f9506f;
+        padding: 10px;
+
+    }
+
+    .list1:hover .drop-list1 {
+        display: block;
+    }
+
+
+    .list2 {
+        position: relative;
+    }
+
+    .drop-list2 {
+        position: absolute;
+        display: none;
+        background-color: white;
+        height: 100px;
+        width: 200px;
+        border-radius: 10px;
+        text-align: center;
+        color: #f9506f;
+
+    }
+
+    .drop-list2 a {
+        color: #f9506f;
+    }
+
+    .list1:hover .drop-list2 {
+        display: block;
+    }
+
+    .container {
+        margin: 0;
+        padding: 10px;
+        /* display: grid; */
+        /* grid-template-columns: repeat(3,1fr); */
+        /* position: relative; */
+    }
+
+    .btn {
+        height: 50px;
+        width: 160px;
+        background-color: white;
+        color: #f9506f;
+        border: none;
+        border-radius: 10px;
+        margin-left: 30px;
+    }
+
+    .btn:hover {
+        background-color: #f9506f;
+        color: white;
+        cursor: pointer;
+    }
+
+    .search {
+        padding-left: 90px;
+    }
+
+    .moon {
+        padding: 40px;
+        /* font-size: 25px; */
+    }
+
+    .text {
+        position: absolute;
+        color: white;
+    }
+
+    .texth1 {
+        font-size: 60px;
+        font-weight: 700;
+        padding-left: 80px;
+        margin-top: 250px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 20px;
+        padding-left: 80px;
+    }
+
+    .image {
+        position: absolute;
+    }
+
+    ul {
+        display: flex;
+        margin-left: 0px;
+        margin-right: 10px;
+
+    }
+
+    li {
+        list-style: none;
+        padding: 5px;
+        align-items: center;
+
+    }
+
+
+    .image {
+        position: absolute;
+    }
+}
